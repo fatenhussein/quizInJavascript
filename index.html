@@ -4,70 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Quiz</title>
+    <title>Welcome to the Quiz!</title>
+    <link rel="stylesheet" href="../style.css" />
   </head>
   <body>
-    <div class="quiz">
-      <div class="header">
-        <h1>Quiz</h1>
-        <div class="timer">
-          <h3 class="min"></h3>
-          <h3 class="sec"></h3>
-        </div>
-      </div>
-      <h4 id="qustion">do you love me?</h4>
+    <div class="container quiz">
+      <h1>Welcome to the Quiz!</h1>
+      <p>
+        Are you ready to test your knowledge? This quiz has 10 questions
+        covering a variety of topics. You'll have 90 second for every question ,
+        so make sure you're ready before you start.
+      </p>
 
-      <span>
-        <input
-          type="radio"
-          id="A"
-          name="option"
-          class="answer"
-          value="optionA"
-        />
-        <label for="option-one" class="option" id="option-one-label">one</label>
-      </span>
-
-      <span>
-        <input
-          type="radio"
-          id="B"
-          name="option"
-          class="answer"
-          value="optionB"
-        />
-        <label for="option-two" class="option" id="option-two-label">two</label>
-      </span>
-
-      <span>
-        <input
-          type="radio"
-          id="C"
-          name="option"
-          class="answer"
-          value="optionC"
-        />
-        <label for="option-three" class="option" id="option-three-label"
-          >three</label
-        >
-      </span>
-
-      <span>
-        <input
-          type="radio"
-          id="D"
-          name="option"
-          class="answer"
-          value="optionD"
-        />
-        <label for="option-four" class="option" id="option-four-label"
-          >three</label
-        >
-      </span>
-      <button type="submit" id="btn">Next</button>
+      <button id="start_btn" class="">
+        <a href="quiz.html">Start Quiz</a>
+      </button>
     </div>
-
-    <script src="main.js"></script>
   </body>
 </html>
